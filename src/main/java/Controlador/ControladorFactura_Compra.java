@@ -149,7 +149,7 @@ public class ControladorFactura_Compra implements ActionListener, DocumentListen
     public void ver_Factura(int fact) {
         String dato[] = modfactucomp.VerFacturaDetalle(fact, detallefactura.getJTDetallefactura());
         detallefactura.getLblnu().setText(String.valueOf(fact));
-        detallefactura.getLBLprovee().setText(dato[1]);
+        detallefactura.getLvlnprovee().setText(dato[1]);
         detallefactura.getLblUsuario().setText(dato[2]);
         detallefactura.getLblfech().setText(dato[3]);
         detallefactura.getLbltotalPagar().setText(dato[4]);
