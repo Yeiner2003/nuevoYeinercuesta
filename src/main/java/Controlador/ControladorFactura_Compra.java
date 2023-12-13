@@ -1,4 +1,3 @@
-
 package Controlador;
 
 import Modelo.ModeloFactura_Compra;
@@ -20,7 +19,6 @@ import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
-
 
 public class ControladorFactura_Compra implements ActionListener, DocumentListener {
 
@@ -148,6 +146,20 @@ public class ControladorFactura_Compra implements ActionListener, DocumentListen
         vista_factucomp.setTitle("Actualizar Factura Compra | Ventana");
     }
 
+    public void ver_Factura(int fact) {
+        String dato[] = modfactucomp.VerFacturaDetalle(fact, detallefactura.getJTDetallefactura());
+        detallefactura.getLblnu().setText(String.valueOf(fact));
+        detallefactura.getLBLprovee().setText(dato[1]);
+        detallefactura.getLblUsuario().setText(dato[2]);
+        detallefactura.getLblfech().setText(dato[3]);
+        detallefactura.getLbltotalPagar().setText(dato[4]);
+        detallefactura.getLBLntipopago().setText(dato[5]);
+        detallefactura.getLblcomprobante().setText(dato[6]);
+        detallefactura.getLblimpu().setText(dato[7]);
+        detallefactura.setLocationRelativeTo(null);
+        detallefactura.setVisible(true);
+    }
+
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource().equals(vista_factucomp.getBtnBuscarUsuario())) {
@@ -171,7 +183,7 @@ public class ControladorFactura_Compra implements ActionListener, DocumentListen
         if (e.getSource().equals(vista_factucomp.getBtnGuardarFacturaCompra())) {
             if ((vista_factucomp.getTxtProveedor().getText().isEmpty()) || (vista_factucomp.getTxtUsuario().getText().isEmpty()) || (vista_factucomp.getCbxtipodepago().getSelectedItem().equals("Seleccionar:")) || (vista_factucomp.getTxtComprobante().getText().isEmpty())) {
                 JOptionPane.showMessageDialog(null, "Hace Falta Informacion");
- 
+
             } else {
 
                 modfactucomp.setCed(Integer.parseInt(vista_factucomp.getTxtProveedor().getText()));
@@ -196,8 +208,7 @@ public class ControladorFactura_Compra implements ActionListener, DocumentListen
         if (e.getSource().equals(vista_factucomp.getBtnCancelar())) {
             vista_factucomp.dispose();
         }
-        
-        
+
     }
 
     public void iniciarFactura_Compra() {

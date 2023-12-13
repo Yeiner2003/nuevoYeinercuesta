@@ -199,7 +199,8 @@ public class ControladorPrincipal implements ActionListener, ChangeListener, Doc
                     detallefactucompra.setVisible(true);
                     detallefactucompra.setLocationRelativeTo(null);
                     detallefactucompra.setTitle("Mostrar Detalle Factura | Ventana");
-                    modfactucom.mostrarDetalleFactura(detallefactucompra.getJtDetalleFactura(), "", "MostrarFacturaCompra");
+                    controlfaccom.ver_Factura(modfactucom.getIdfactu());
+//                    modfactucom.mostrarDetalleFactura(detallefactucompra.getJtDetalleFactura(), "", "MostrarFacturaCompra");
                 }
 
             }

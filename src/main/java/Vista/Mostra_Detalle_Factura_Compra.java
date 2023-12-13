@@ -5,6 +5,8 @@
 package Vista;
 
 import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.JTextField;
 
@@ -21,32 +23,194 @@ public class Mostra_Detalle_Factura_Compra extends javax.swing.JFrame {
         initComponents();
     }
 
-    public JTable getJtDetalleFactura() {
-        return jtDetalleFactura;
+//    
+// 
+//    public JTable getJtDetalleFactura() {
+//        return jtDetalleFactura;
+//    }
+//
+//    
+//    
+//    public void setJtDetalleFactura(JTable jtDetalleFactura) {
+//        this.jtDetalleFactura = jtDetalleFactura;
+//    }
+//
+//   
+//
+//    public JLabel getLblTitulo() {
+//        return lblTitulo;
+//    }
+//
+//    public void setLblTitulo(JLabel lblTitulo) {
+//        this.lblTitulo = lblTitulo;
+//    }
+//
+//    public JTextField getTxtFiltro() {
+//        return txtFiltro;
+//    }
+//
+//    public void setTxtFiltro(JTextField txtFiltro) {
+//        this.txtFiltro = txtFiltro;
+//    }
+
+    public JTable getJTDetallefactura() {
+        return JTDetallefactura;
     }
 
-    
-    
-    public void setJtDetalleFactura(JTable jtDetalleFactura) {
-        this.jtDetalleFactura = jtDetalleFactura;
+    public void setJTDetallefactura(JTable JTDetallefactura) {
+        this.JTDetallefactura = JTDetallefactura;
     }
 
-   
-
-    public JLabel getLblTitulo() {
-        return lblTitulo;
+    public JLabel getLBLcomprobante() {
+        return LBLcomprobante;
     }
 
-    public void setLblTitulo(JLabel lblTitulo) {
-        this.lblTitulo = lblTitulo;
+    public void setLBLcomprobante(JLabel LBLcomprobante) {
+        this.LBLcomprobante = LBLcomprobante;
     }
 
-    public JTextField getTxtFiltro() {
-        return txtFiltro;
+    public JLabel getLBLfactu() {
+        return LBLfactu;
     }
 
-    public void setTxtFiltro(JTextField txtFiltro) {
-        this.txtFiltro = txtFiltro;
+    public void setLBLfactu(JLabel LBLfactu) {
+        this.LBLfactu = LBLfactu;
+    }
+
+    public JLabel getLBLntipopago() {
+        return LBLntipopago;
+    }
+
+    public void setLBLntipopago(JLabel LBLntipopago) {
+        this.LBLntipopago = LBLntipopago;
+    }
+
+    public JLabel getLBLprovee() {
+        return LBLprovee;
+    }
+
+    public void setLBLprovee(JLabel LBLprovee) {
+        this.LBLprovee = LBLprovee;
+    }
+
+    public JLabel getLBLtitulo() {
+        return LBLtitulo;
+    }
+
+    public void setLBLtitulo(JLabel LBLtitulo) {
+        this.LBLtitulo = LBLtitulo;
+    }
+
+    public JPanel getjPanel1() {
+        return jPanel1;
+    }
+
+    public void setjPanel1(JPanel jPanel1) {
+        this.jPanel1 = jPanel1;
+    }
+
+    public JScrollPane getjScrollPane3() {
+        return jScrollPane3;
+    }
+
+    public void setjScrollPane3(JScrollPane jScrollPane3) {
+        this.jScrollPane3 = jScrollPane3;
+    }
+
+    public JLabel getLblFecha() {
+        return lblFecha;
+    }
+
+    public void setLblFecha(JLabel lblFecha) {
+        this.lblFecha = lblFecha;
+    }
+
+    public JLabel getLblTotal() {
+        return lblTotal;
+    }
+
+    public void setLblTotal(JLabel lblTotal) {
+        this.lblTotal = lblTotal;
+    }
+
+    public JLabel getLblUsuario() {
+        return lblUsuario;
+    }
+
+    public void setLblUsuario(JLabel lblUsuario) {
+        this.lblUsuario = lblUsuario;
+    }
+
+    public JLabel getLblcomprobante() {
+        return lblcomprobante;
+    }
+
+    public void setLblcomprobante(JLabel lblcomprobante) {
+        this.lblcomprobante = lblcomprobante;
+    }
+
+    public JLabel getLblfech() {
+        return lblfech;
+    }
+
+    public void setLblfech(JLabel lblfech) {
+        this.lblfech = lblfech;
+    }
+
+    public JLabel getLblimpu() {
+        return lblimpu;
+    }
+
+    public void setLblimpu(JLabel lblimpu) {
+        this.lblimpu = lblimpu;
+    }
+
+    public JLabel getLblimpuest() {
+        return lblimpuest;
+    }
+
+    public void setLblimpuest(JLabel lblimpuest) {
+        this.lblimpuest = lblimpuest;
+    }
+
+    public JLabel getLblnu() {
+        return lblnu;
+    }
+
+    public void setLblnu(JLabel lblnu) {
+        this.lblnu = lblnu;
+    }
+
+    public JLabel getLbltipopago() {
+        return lbltipopago;
+    }
+
+    public void setLbltipopago(JLabel lbltipopago) {
+        this.lbltipopago = lbltipopago;
+    }
+
+    public JLabel getLbltotalPagar() {
+        return lbltotalPagar;
+    }
+
+    public void setLbltotalPagar(JLabel lbltotalPagar) {
+        this.lbltotalPagar = lbltotalPagar;
+    }
+
+    public JLabel getLblusuario() {
+        return lblusuario;
+    }
+
+    public void setLblusuario(JLabel lblusuario) {
+        this.lblusuario = lblusuario;
+    }
+
+    public JLabel getLvlnprovee() {
+        return lvlnprovee;
+    }
+
+    public void setLvlnprovee(JLabel lvlnprovee) {
+        this.lvlnprovee = lvlnprovee;
     }
 
     
@@ -60,22 +224,45 @@ public class Mostra_Detalle_Factura_Compra extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel2 = new javax.swing.JPanel();
-        lblTitulo = new javax.swing.JLabel();
-        jScrollPane1 = new javax.swing.JScrollPane();
-        jtDetalleFactura = new javax.swing.JTable();
-        txtFiltro = new javax.swing.JTextField();
+        LBLtitulo = new javax.swing.JLabel();
+        jPanel1 = new javax.swing.JPanel();
+        LBLfactu = new javax.swing.JLabel();
+        lblnu = new javax.swing.JLabel();
+        LBLprovee = new javax.swing.JLabel();
+        lvlnprovee = new javax.swing.JLabel();
+        lbltipopago = new javax.swing.JLabel();
+        LBLntipopago = new javax.swing.JLabel();
+        lblusuario = new javax.swing.JLabel();
+        lblUsuario = new javax.swing.JLabel();
+        LBLcomprobante = new javax.swing.JLabel();
+        lblcomprobante = new javax.swing.JLabel();
+        jScrollPane3 = new javax.swing.JScrollPane();
+        JTDetallefactura = new javax.swing.JTable();
+        lblimpuest = new javax.swing.JLabel();
+        lblimpu = new javax.swing.JLabel();
+        lblTotal = new javax.swing.JLabel();
+        lbltotalPagar = new javax.swing.JLabel();
+        lblFecha = new javax.swing.JLabel();
+        lblfech = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel2.setBackground(new java.awt.Color(255, 255, 0));
-        jPanel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        LBLtitulo.setFont(new java.awt.Font("Serif", 0, 36)); // NOI18N
+        LBLtitulo.setText("Detalle Factura");
 
-        lblTitulo.setFont(new java.awt.Font("Serif", 2, 36)); // NOI18N
-        lblTitulo.setText("Mostrar Detalle Factura");
+        jPanel1.setBackground(new java.awt.Color(255, 255, 51));
 
-        jtDetalleFactura.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        jtDetalleFactura.setModel(new javax.swing.table.DefaultTableModel(
+        LBLfactu.setText("Factura");
+
+        LBLprovee.setText("Proveedor");
+
+        lbltipopago.setText("Tipo De Pago");
+
+        lblusuario.setText("Usuario");
+
+        LBLcomprobante.setText("Comprobante");
+
+        JTDetallefactura.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {},
                 {},
@@ -86,51 +273,130 @@ public class Mostra_Detalle_Factura_Compra extends javax.swing.JFrame {
 
             }
         ));
-        jScrollPane1.setViewportView(jtDetalleFactura);
+        jScrollPane3.setViewportView(JTDetallefactura);
 
-        txtFiltro.setText("Buscar: ");
+        lblimpuest.setText("Impuesto");
 
-        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
-        jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
+        lblTotal.setText("Total A Pagar");
+
+        lblFecha.setText("Fecha");
+
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 1328, Short.MAX_VALUE)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(lbltipopago)
+                                .addGap(29, 29, 29)
+                                .addComponent(LBLntipopago))
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(LBLfactu, javax.swing.GroupLayout.PREFERRED_SIZE, 83, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(LBLprovee))
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanel1Layout.createSequentialGroup()
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addComponent(lblnu, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(jPanel1Layout.createSequentialGroup()
+                                        .addGap(16, 16, 16)
+                                        .addComponent(lvlnprovee)))))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 1309, Short.MAX_VALUE)
+                        .addGap(15, 15, 15))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(lblTitulo)
-                        .addGap(333, 333, 333)
-                        .addComponent(txtFiltro, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(lblimpuest)
+                            .addComponent(lblTotal))
+                        .addGap(22, 22, 22)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(lblimpu, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lbltotalPagar, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addContainerGap())))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                        .addComponent(LBLcomprobante)
+                        .addGap(110, 110, 110))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(lblFecha, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblusuario))
+                        .addGap(105, 105, 105)))
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addComponent(lblcomprobante, javax.swing.GroupLayout.DEFAULT_SIZE, 96, Short.MAX_VALUE)
+                        .addComponent(lblUsuario, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(lblfech))
                 .addContainerGap())
         );
-        jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(65, 65, 65)
-                        .addComponent(txtFiltro, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(21, 21, 21)
-                        .addComponent(lblTitulo)))
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(12, 12, 12)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblFecha)
+                    .addComponent(lblfech))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(LBLfactu)
+                    .addComponent(lblnu))
+                .addGap(8, 8, 8)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblUsuario)
+                    .addComponent(lblusuario))
+                .addGap(2, 2, 2)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(LBLprovee)
+                    .addComponent(lvlnprovee))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblcomprobante)
+                    .addComponent(LBLcomprobante))
+                .addGap(7, 7, 7)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lbltipopago)
+                    .addComponent(LBLntipopago))
                 .addGap(18, 18, 18)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 272, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(165, Short.MAX_VALUE))
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 285, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblimpuest)
+                    .addComponent(lblimpu))
+                .addGap(27, 27, 27)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblTotal)
+                    .addComponent(lbltotalPagar))
+                .addContainerGap(71, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(15, 15, 15)
+                .addComponent(LBLtitulo, javax.swing.GroupLayout.PREFERRED_SIZE, 273, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(87, 1054, Short.MAX_VALUE))
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 25, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addGap(17, 17, 17)
+                .addComponent(LBLtitulo, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         pack();
@@ -140,10 +406,25 @@ public class Mostra_Detalle_Factura_Compra extends javax.swing.JFrame {
     
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JPanel jPanel2;
-    private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTable jtDetalleFactura;
-    private javax.swing.JLabel lblTitulo;
-    private javax.swing.JTextField txtFiltro;
+    private javax.swing.JTable JTDetallefactura;
+    private javax.swing.JLabel LBLcomprobante;
+    private javax.swing.JLabel LBLfactu;
+    private javax.swing.JLabel LBLntipopago;
+    private javax.swing.JLabel LBLprovee;
+    private javax.swing.JLabel LBLtitulo;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JLabel lblFecha;
+    private javax.swing.JLabel lblTotal;
+    private javax.swing.JLabel lblUsuario;
+    private javax.swing.JLabel lblcomprobante;
+    private javax.swing.JLabel lblfech;
+    private javax.swing.JLabel lblimpu;
+    private javax.swing.JLabel lblimpuest;
+    private javax.swing.JLabel lblnu;
+    private javax.swing.JLabel lbltipopago;
+    private javax.swing.JLabel lbltotalPagar;
+    private javax.swing.JLabel lblusuario;
+    private javax.swing.JLabel lvlnprovee;
     // End of variables declaration//GEN-END:variables
 }
